@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*   */
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.wrap{
+    width: 1024px;
+    margin: 0px auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 220px;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li a{
+    color: #3F5D45;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.banner{
+    margin:40px auto;
+}
+
+.content{
+    display: flex;
+}
+.sidebar{
+    width: 33%;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    color: white;
+    background-color: #3F5D45;
+    padding: 16px 0px;
+}
+
+.dessert{
+    display: flex;
+    flex-direction: column;
+}
+.dessert li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    color: #3F5D45;
+    font-size: 24px;
+    font-weight: bold;
+}
+.dessert li a:hover{
+    background-color: #EAF0ED;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+}
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin:0px 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.name{
+    display: flex;
+    color:#3F5D45;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.name h3{
+    padding: 13px 33px;
+}
+.name .price{
+    font-weight: bold;
+}
+.item a{
+    display: block;
+    padding: 16px 90px;
+    background-color: #EAF0ED;
+    color:#3F5D45 ;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+.item h4{
+    font-size: 16px;
+    background-color: #3F5D45;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    writing-mode: vertical-lr;
+    text-align: center;
+    left:20px;
+}
+
+.page ul{
+    display: flex;
+    justify-content:flex-end;
+}
+.page ul li a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3F5D45;
+}
+
+.page ul li a:visited{
+    text-decoration: none;
+ 
+}
+.page ul .number a:focus{
+    background-color: #3F5D45;
+    color: white;
+}

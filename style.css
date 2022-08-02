@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family:"SF Pro Text","Microsoft JhengHei";
+}
+
+.container {
+	width: 1200px;
+	margin:0 auto;
+}
+
+
+h1{
+	font-size: 80px;
+	font-weight: Regular;
+	line-height: 95px;
+	margin: 40px auto ;
+	padding-bottom: 24px;
+	border-bottom: 1px solid black;
+}
+
+.profile img{
+	margin-top: 48px;
+	margin-bottom: 56px;
+}
+h2{
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 48px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid black;
+	padding-bottom:8px;
+}
+ul{
+	margin-top: 8px;
+	margin-bottom: 72px;
+}
+.profile li{
+	margin-bottom: 24px;
+}
+
+.education h2{
+	line-height: 45px;
+}
+
+h2 span{
+	color:#A00404;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: bold;
+}
+.education li{
+	margin-bottom:24px;
+}
+
+
+.skill h2, .contact h2{
+	font-size: 32px;
+	line-height: 45px;
+	margin-top: 24px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid white;
+	
+}
+.skill h2 span , .contact h2 span{
+	font-size: 24px;
+	line-height: 29px;
+	color: white;
+}
+
+li{
+	font-size: 24px;
+	list-style:none; 
+	line-height: 36px;
+}
+
+.skill, .contact{
+	background-color: #415165;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	margin-bottom: 72px;
+
+}
+.skill ul, .contact ul, .experience ul{
+	border-left: 1px solid white;
+	margin:40px 52px auto auto;
+	display: inline-block;
+	padding-left:24px;
+}
+.skill li{
+	list-style:none; 
+	text-align: left;
+}
+.experience ul{
+	border-left: 1px solid #96A9C4;
+	margin-left: 24px;
+	margin-bottom: 72px;
+}
+.experience li{
+	font-weight: bold;
+	margin: 32px 32px 24px auto;
+}
+.experience li p{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	margin: 0px;
+
+}
+.experience img{
+	margin: 8px auto;
+}
+
+.contact div{
+	width: 1200px;
+	margin: 0 auto;
+}
+.contact img{
+	width: 48px;
+	margin:20px 24px;
+}
+.contact ul{
+	border: 0;
+}
+.contact a{
+	color: white;
+	text-decoration: none;
+}

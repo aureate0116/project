@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+.wrapper{
+    padding-top: 40px;
+}
+.container{
+    margin:0px auto;
+    width: 1200px;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 95px;
+    padding-bottom:24px ;
+    border-bottom: 1px solid #000;
+}
+h2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+}
+h2 span{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #A00404;
+}
+.profile img{
+    display: block;
+    width: 324px;
+    margin: 48px 0px;
+}
+
+.profile ul, .education ul{
+    margin:16px 0px;
+}
+.profile li, .education li{
+    font-size:24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+.education{
+    margin:64px 0px;
+}
+.container-w, .container-w2{
+    background-color: #415165;
+    color: white;
+    text-align: center;
+}
+
+.container-w{
+    margin: 64px auto;
+    padding:24px 40px 0px 0px;
+}
+.container-w2{
+    margin-top:80px ;
+    padding:24px 40px 0px 0px;
+}
+
+.container-w h2, .container-w2 h2{
+    width: 996px;
+    margin: 0 auto;
+   border-bottom:1px solid white;
+   text-align: center;
+}
+.container-w h2 span , .container-w2 h2 span{
+    color: white;
+}
+
+.container-w ul , .container-w2 ul{
+    margin: 40px auto;
+    border-left: 1px solid white;
+    padding-left: 23px;
+    text-align: left;
+    display: inline-block;
+}
+.container-w li, .container-w2 li{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.experience ul{
+    margin:16px;
+    padding:0px 24px ;
+    border-left:1px solid #96A9C4 ;
+}
+.experience li{
+    font-size:24px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.experience img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.experience p{
+    font-size:20px ;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.container-w2 .contact ul{
+   list-style: none;
+   text-align: center;
+   border: none;
+   margin: 24px auto;
+}
+.container-w2 .contact ul li img{
+    width: 48px;
+    height: 48px;
+    margin-right:24px;
+    vertical-align: middle;   
+}
